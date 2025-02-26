@@ -3,31 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="login-container">
-        
-        <img src="cadeado.png" alt="imagem" height="50" width="50">
-        <br>
+        <img src="img/cadeado.png" alt="imagem" height="50" width="50">
         <h2>Insira as credenciais para entrar no sistema</h2>
-        
         <form action="login.jsp" method="post">
-            
             <p>
-            <label for="users">Usuário:</label>
-            <input type="text" id="users" name="users" placeholder="digite o nome do usuario" required>
+                <label for="users">Usuário:</label>
+                <input type="text" id="users" name="users" placeholder="digite o nome do usuario" required>
             </p>
-            
             <p>
-            <label for="pass">Senha:</label>
-            <input type="password" id="pass" name="pass"  placeholder="digite a senha" required>
+                <label for="pass">Senha:</label>
+                <input type="password" id="pass" name="pass" placeholder="digite a senha" required>
             </p>
-            
             <button type="submit">Entrar</button>
-            
         </form>
-        
     </div>
 </body>
 </html>
