@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-container, .welcome-container, .error-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color:#f0f8ff; /* Cor de fundo azul claro */
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+input:focus {
+    background-color: #e0f7fa; /* Cor mais clara ao focar */
+    border: 1px solid #007bff; /* Adiciona uma borda azul */
+    outline: none;
+}
+
+.welcome-container {
+    background: #F5DEB3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #155724; /* Cor verde escuro para o título */
+}
+
+p {
+    color: #155724;
+    font-size: 18px;
+}
+
+/* Estilização geral dos formulários */
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
